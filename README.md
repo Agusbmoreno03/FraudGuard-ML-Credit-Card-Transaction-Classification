@@ -39,7 +39,7 @@ fraude_financiero/
 ├── 01_exploracion.ipynb        ← EDA: distributions, imbalance, amounts
 ├── 02_modelo.ipynb             ← SMOTE + Random Forest + evaluation
 └── outputs/
-    ├── predictions.csv         ← model predictions with probabilities
+    ├── predictions.csv         ← generated locally (not included, too large)
     ├── confusion_matrix.csv    ← TP, FP, FN, TN counts
     ├── feature_importance.csv  ← top predictive variables
     └── economic_analysis.csv   ← cost model for Power BI
