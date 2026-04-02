@@ -59,11 +59,23 @@ Two pages built from the model outputs:
 - KPI cards: frauds detected, missed frauds, false alarms, true normal
 - Feature importance (V14 is the most predictive variable by far)
 - Fraud probability distribution
+
+![Machine Learning Model Performance Results](ModelResults.png)
  
 **Page 2 — Economic Impact Analysis**
 - Cost of each type of error
 - Model vs no-model total cost comparison
 - Estimated savings
+
+  ![Economic Impact Analysis Dashboard](EconomicImpactAnalysis.png) 
  
 ---
+## What I learned
+ 
+A few things that didn't click until I actually built this:
+ 
+- **Accuracy is a useless metric** when classes are imbalanced. You need precision, recall, and ROC-AUC.
+- **False negatives cost more than false positives** — a missed fraud means real money lost. A false alarm means an annoyed customer. Both matter, but differently.
+- **V14 dominates feature importance** — which makes sense since PCA components that capture unusual variance tend to flag anomalies.
+- Connecting Python outputs to Power BI took 10 minutes. The economic storytelling on top took way longer (and was the most valuable part).
 
