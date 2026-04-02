@@ -1,0 +1,5 @@
+Category,Count,Description
+True Normal,56749,Normal transaction correctly identified
+False Positive,115,Normal transaction flagged as fraud
+False Negative,12,Fraud missed by the model
+True Fraud,86,Fraud correctly detected

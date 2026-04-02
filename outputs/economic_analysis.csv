@@ -1,0 +1,7 @@
+Category,Cost_USD,Type
+Missed Frauds (FN),6000,Loss
+False Alarms (FP),1725,Loss
+Fraud Investigations,860,Loss
+Total Cost with Model,8585,Summary
+Baseline (No Model),49000,Summary
+Total Savings,40415,Savings
